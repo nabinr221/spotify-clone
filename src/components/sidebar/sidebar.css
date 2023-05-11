@@ -3,7 +3,6 @@
   height: 100vh;
   background-color: var(--secondary-bg-color);
   color: var(--primary-color);
-
 }
 
 .sidebar-container .logo {
@@ -25,21 +24,20 @@
   transition: 0.5s;
 }
 
-.sidebar-container .sidebar-menu  ul li.active {
+.sidebar-container .sidebar-menu ul li.active {
   color: #fff;
 }
-.sidebar-container .sidebar-menu ul li:hover{
+.sidebar-container .sidebar-menu ul li:hover {
   color: #fff;
 }
 
 .sidebar-container .sidebar-footer .sidebar-content {
   width: 100%;
-  padding: 1rem .8rem;
-
+  padding: 1rem 0.8rem;
 }
 .sidebar-container .sidebar-footer .sidebar-content span {
   margin: 1rem 0.5rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .sidebar-container .sidebar-footer .footer-language {
