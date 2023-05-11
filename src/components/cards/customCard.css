@@ -1,0 +1,26 @@
+.custom-card {
+  width: 13rem;
+  height: 18rem;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+}
+.custom-card h4 {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.custom-card p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

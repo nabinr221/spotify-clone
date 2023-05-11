@@ -1,0 +1,34 @@
+.custom-navbar {
+  width: 100%;
+  height: 70px;
+  padding: 2rem;
+  background: var(--primary-bg-color);
+  /* position: sticky; */
+  /* color: var(--secondary-color); */
+}
+
+.previous-arrow,
+.next-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  background-color: var(--secondary-bg-color);
+  border-radius: 50%;
+}
+
+.sign-up,
+.login {
+  width: 100px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.login:hover{
+  transform: scale(1.1);
+}

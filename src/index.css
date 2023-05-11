@@ -1,8 +1,63 @@
-/* :root{
-    --primary-color:;
-    --primary-color:;
-    --primary-color:;
-    --primary-color:;
-    --primary-color:;
-    --primary-color:;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Comme:wght@200;400;600;800;900&display=swap");
+
+:root {
+  /* ================ text color =================== */
+  --primary-color: #abb1b3;
+  --secondary-color: #fff;
+
+  /* ============== Background color =============*/
+  --primary-bg-color: #151515;
+  --secondary-bg-color: #000;
+  --light-bg-color: #292929;
+  /* ============== Font ===================*/
+  --primary-font: "Comme", sans-serif;
+
+  /* -============ =============== */
+}
+.primary-color{
+  color: var(--primary-color);
+}
+.secondary-color{
+  color: var(--secondary-color);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.color-dark {
+  background: var(--secondary-bg-color);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  height: 2px;
+  background-color: #abb1b3;
+  /* width: 100%; */
+}
+.link {
+  text-decoration: none;
+}
+.light-bg {
+  background-color: var(--light-bg-color);
+}
+
+.input-box {
+  width: 100%;
+  font-size: 1.1rem;
+  background: #121212;
+  outline: none;
+}
+.input-box:focus {
+  background: #121212;
+  border: 1px solid var(--secondary-color);
+  outline: none;
+  color: var(--secondary-color);
+}
+.input-box::placeholder {
+  color: var(--primary-color);
+  }
