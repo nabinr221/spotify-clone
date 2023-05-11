@@ -34,8 +34,13 @@
 .btns {
   background: #1ed760;
   color: white;
-  transition: .5s;
+  transition: 0.5s;
 }
 .btns:hover {
-   transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.register-form-grp .register-input:focus {
+  outline: none;
+  border: 2px solid red;
 }

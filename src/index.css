@@ -14,11 +14,20 @@
 
   /* -============ =============== */
 }
-.primary-color{
+.primary-color {
   color: var(--primary-color);
 }
-.secondary-color{
+.secondary-color {
   color: var(--secondary-color);
+}
+.dark-color{
+  color: #000;
+}
+.text-bold-400{
+  font-weight: 400;
+}
+.text-bold-600{
+  font-weight: 600;
 }
 * {
   margin: 0;
@@ -35,8 +44,10 @@ ul {
   padding: 0;
 }
 hr {
-  height: 2px;
-  background-color: #abb1b3;
+  height: 1px;
+  width: auto;
+  /* background-color: #abb1b3; */
+  background-color: #3a4041;
   /* width: 100%; */
 }
 .link {
@@ -60,4 +71,4 @@ hr {
 }
 .input-box::placeholder {
   color: var(--primary-color);
-  }
+}

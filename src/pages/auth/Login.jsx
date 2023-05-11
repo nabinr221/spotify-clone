@@ -76,17 +76,17 @@ const Login = () => {
                                 </FormGroup>
                                 <FormGroup >
                                     <Label
-                                        for="exampleEmail"
+                                        for="examplePassword"
                                         size="sm"
-                                        className='text-white form-lable'
+                                        className='text-white'
                                     >
                                         Password
                                     </Label>
 
                                       <Input
-                                        id="exampleEmail"
-                                        name="email"
-                                        placeholder="Email or username"
+                                        id="examplePassword"
+                                        name="password"
+                                        placeholder="Password"
                                         type="email"
                                         className='input-box'
                                     />
@@ -111,7 +111,7 @@ const Login = () => {
                         </Container>
                         <hr />
                         <Container className='w-75'>
-                            <span className='text-center primary-color fs-6 '> Don't have an account?<Link to={"/login"} className='ms-2 text-white     '>Sign up for Spotify</Link></span>
+                            <span className='text-center primary-color fs-6 '> Don't have an account?<Link to={"/register"} className='ms-2 text-white     '>Sign up for Spotify</Link></span>
                         </Container>
                     </div>
                 </div >
